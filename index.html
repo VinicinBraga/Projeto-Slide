@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slide Show</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <h1>O Futebol</h1>
+    </div>
+    <div class="slider">
+      <div class="slider--controls">
+        <div class="slider--control" onclick="goPrev()">
+          <img class="arrowIcon" src="/images/previous_icon.png" alt="previos icon">
+        </div>
+        <div class="slider--control" onclick="goNext()">
+          <img class="arrowIcon" src="/images/next_icon.png" alt="previos icon">
+        </div>
+      </div>
+      <div class="slider--width">
+        <div class="slider--item" style="background-image: url('/images/1.jpg');">
+          <div>
+            <p>"O futebol...</p>
+          </div>
+        </div>
+        <div class="slider--item" style="background-image: url('/images/2.jpg');">
+          <div>
+            <p>não é uma questão...</p>
+          </div>
+        </div>
+        <div class="slider--item" style="background-image: url('/images/3.jpg');">
+          <div>
+            <p>de vida ou morte...</p>
+          </div>
+        </div>
+        <div class="slider--item" style="background-image: url('/images/4.jpg');">
+          <div class="autor">
+            <p>É muito mais importante que isso."</p>
+            <p class="autor--style">Bill Shankly</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section>
+    <h1>Site</h1>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>
